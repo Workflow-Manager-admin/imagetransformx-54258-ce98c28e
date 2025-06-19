@@ -1,0 +1,23 @@
+Python: 3.12.3
+pip: 24.0
+Packages installed by pip:
+- fastapi==0.115.7
+- uvicorn==0.34.0
+- sqlalchemy==2.0.37
+- pydantic==2.10.6
+- black==24.10.0
+- flake8==7.1.1
+- pytest (already installed, 8.4.1 is a later minor version, allowed)
+- pillow (already installed, stable, version not pinned by DependencyTools)
+Node.js: v18.20.8
+npm: 10.8.2
+Global npm packages (user-local prefix):
+- express@4.21.2
+- react (latest)
+- react-dom (latest)
+- create-react-app (already installed, 5.1.0)
+git: 2.43.0
+Notes:
+- Python and Node.js versions are compliant with installed packages and tool requirements.
+- All required dependencies for FastAPI backend, image processing, React frontend, and tooling were installed or verified to be present in the system, using DependencyTools as authority for versions when required.
+- npm packages installed to ~/.npm-global due to global permissions issue.
